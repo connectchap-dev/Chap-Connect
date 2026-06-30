@@ -1,0 +1,309 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	box-sizing: border-box;
+	background-color: lavender;
+}
+
+.nav{
+	margin: auto;
+	position: fixed;
+	height: 40px;
+	top: 0;
+	width: auto;
+	background-color: blue;
+
+}
+
+.logo{
+	margin: 0px;
+	float: top-left;
+	text-align:left;
+	padding: 10px;
+	color: black; 	
+	background-color: blue;
+}
+
+.icon{
+	width: auto;
+	float: top-left;
+	height: 60px;
+	background-color: blue;
+}
+
+.menu{
+	width: 1380px;
+	float: left;
+	height: auto;
+	overflow-x: auto;
+}
+
+
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: auto;
+	
+}
+
+ul li{
+	list-style: none;
+	margin-left: 70px;
+	margin-top: 10px;
+	font-size: 15;
+	width: 100%;
+	
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Arial';
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+	
+}
+
+ul li a:hover{
+	color: orange;
+
+}
+
+.search{
+	padding:0px;
+	width: 1500px;
+	height: 60px;
+	float: left;
+	margin-left: auto;
+	background: black;
+
+	
+}
+	
+.srch{
+	padding: 15px;
+	font-family: 'Times New Roman';
+	width: 210px;
+	height: 30px;
+	background: white;
+	letter-spacing: 1.2px;
+	font-size: 20px;
+}
+
+.btn{
+	width: 10%;
+	height: 40px;
+	background: light-blue;
+	border: 2px solid white;
+	margin-top: 13px;
+	color: black;
+	font-size: 15px;
+	cursor: pointer;
+	transition:0.3s ease;
+
+}
+
+.btn:hover{
+	background: orange;
+	border: lavender;
+}
+
+.main{
+	margin-top: 300px;
+}
+
+.container{
+	padding: 15px;
+	margin: 60px;
+	width: 620px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.details{
+	padding: 2px;
+	margin: 20px;
+	width: 500px;
+	float: bottom;
+	background: white;
+	border: green;
+	position: top;
+
+}
+
+h2{
+	height: 38px;
+	background: lavender;
+}
+
+h3{
+	background: transparent;
+	float: center;
+}
+
+h5{
+	background:transparent;
+	float: center;
+	color: gray;
+	
+}
+	
+.cbtn{
+	width: 50%;
+	height: 40px;
+	background: #6ff7;
+	border: 1px solid green;
+	margin-top: 13px;
+	color: black;
+	font-size: 15px;
+	border-radius: 18%;
+	float: right;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+
+.cbtn:hover {
+	background: orange;
+	border: gray;
+}
+
+.vbtn{
+	width: 50%;
+	height: 40px;
+	background: #05aff0;
+	border: 1px solid blue;
+	margin-top: 13px;
+	color: black;
+	font-size: 15px;
+	border-radius: 18%;
+	float: top-left;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+
+.vbtn:hover {
+	background: orange;
+	border: gray;
+}
+	
+.image img{
+	padding: 3px;
+	height: 400px;
+	width: 400px;
+	position: center;
+	background: white;
+	border-radius: 0%;
+}
+
+video{
+	padding: 0px;
+	height: 350px;
+	width: 590px;
+	float: center;
+	background: white;
+	
+}
+
+.willshow{
+	padding: 50px;
+	color: gray;
+	float: center;
+	width: 700px;
+}
+
+.pimage img{
+	padding: 3px;
+	height: 200px;
+	width: 200px;
+	float: top-left;
+	position: center;
+	background: white;
+	border-radius: 50%;
+	
+}
+
+.pdetails{
+	padding: 20px;
+	margin: 20px;
+	width: 1500px;
+	float: left;
+	background: white;
+	border: green;
+	position: top;
+
+}
+
+.lbtn{
+	width: 50%;
+	height: 40px;
+	background: #05aff0;
+	border: 1px solid blue;
+	margin-top: 70px;
+	color: black;
+	font-size: 15px;
+	border-radius: 18%;
+	float: bottom;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+
+.lbtn:hover {
+	background: orange;
+	border: gray;
+}
+
+containe{
+	
+	color: white;
+	background: white;
+}
+
+form-box{
+	width: 100%;
+	max-width: 450px;
+	padding:30px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 10px rgba(0, 0, 0, 0.1);
+	display: none;
+}
+
+input{
+	color: inherit;
+	width: 100%;
+	background: white;
+	border: solid gray 1px;
+	border-radius: 10%;
+	padding: 10px;
+	font-size: 15px;
+	
+}
+
+.RightBar{
+	box-align: auto;
+	padding: 10px;
+	margin: auto;
+	height: 400px;
+	width: 600px;
+	float: right;
+	overflow-y: auto;
+	position: auto;
+	
+}
+
+.ProfCat{
+	background: white;
+	padding: 20px;
+}
+
+.signupbtn{
+	position: right;
+}
+
+.Photos{
+	margin: auto;
+	padding: 15px;
+	float: left;
+}

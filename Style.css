@@ -201,6 +201,7 @@ h5{
 }
 
 video{
+	margin: auto;
 	padding: 0px;
 	height: 350px;
 	width: 590px;
@@ -217,6 +218,7 @@ video{
 }
 
 .pimage img{
+	margin: auto;
 	padding: 3px;
 	height: 200px;
 	width: 200px;

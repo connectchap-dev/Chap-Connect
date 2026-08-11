@@ -37,7 +37,7 @@
 	width: auto;
 	float: left;
 	height: auto;
-	overflow-x: auto;
+	overflow-x: 100%;
 }
 
 
